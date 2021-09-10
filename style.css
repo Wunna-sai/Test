@@ -1,0 +1,196 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.image-logo {
+  width: 20%;
+  float: left;
+}
+.cat-logo {
+  width: 100%;
+}
+.Name {
+  font-family: Impact;
+  font-size: 4vw;
+  margin-top: 2%;
+  color: blue;
+  text-align: justify;
+  word-spacing: 1vw;
+  text-shadow: 3px 8px 10px #fff;
+}
+
+.image-round {
+  border-radius: 10px;
+}
+.navbar {
+  background: linear-gradient(135deg, #24ff72, #2196f3);
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #2574a9;
+}
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1.5vw;
+  border-radius: 5px;
+}
+.btn-first {
+  background-color: #19b5fe;
+  color: white;
+  cursor: pointer;
+}
+.btn-first:hover {
+  color: #2574a9;
+}
+h2 {
+  color: black;
+  text-shadow: 4px 4px 4px rgb(61, 60, 60);
+  font-size: 3vw;
+}
+h4 {
+  font-size: 1.5vw;
+}
+
+#cat-text {
+  font-size: 1.8vw;
+}
+
+.float-box {
+  position: relative;
+}
+
+.float-text {
+  position: absolute;
+  left: 30%;
+  bottom: 50%;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  font-size: 2vw;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+.fix {
+  clear: both;
+  float: none;
+}
+
+.menu a {
+  color: #fff;
+}
+.menu a:hover {
+  color: blue;
+}
+.menu ul li {
+  float: right;
+  list-style-type: none;
+  padding: 2vw 3vw;
+  font-size: 3vw;
+  opacity: 0.6;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+}
+
+.book_search {
+  background-image: url(images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10% 0;
+}
+
+.book_search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 5px;
+  margin-left: 40%;
+}
+
+.categories {
+  padding: 5% 0;
+}
+.box3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+#bm1 {
+  background-color: #b4f3d1;
+}
+
+#bm2 {
+  background-color: #c5eff7;
+}
+#bm3 {
+  background-color: #f8c2c8;
+}
+.book-menu-box {
+  width: 48%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 5px;
+}
+.book-menu-info {
+  width: 70%;
+  float: left;
+  margin-left: 5%;
+}
+
+.book-price {
+  font-size: 1.5vw;
+  margin: 5% 0;
+  color: blue;
+}
+
+.social ul {
+  list-style: none;
+}
+.social ul li {
+  display: inline-block;
+  padding: 1%;
+}
+.social ul li a {
+  font-size: 3.5vw;
+  color: #fff;
+}
+.social {
+  background: linear-gradient(135deg, #f403d1, #64b5f6);
+}
+
+.footer {
+  background-color: #24252a;
+  color: white;
+}
+.footer a {
+  font-size: 2vw;
+  color: #19b5fe;
+}
+.footer p {
+  font-size: 1.2vw;
+}
